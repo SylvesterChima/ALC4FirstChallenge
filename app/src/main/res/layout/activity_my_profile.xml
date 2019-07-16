@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile">
+
+    <include layout="@layout/tool_bar"
+        android:id="@+id/ilToolBar">
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/ilToolBar">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:src="@drawable/chima"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sylvester Chima"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dddddd"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Track:    Android"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="18sp"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country:    Nigeria"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="18sp"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:    sylvesterchima11@outlook.com"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="18sp"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number:    08036496516"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="18sp"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slack Username:    @Sylvester Chima"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="18sp"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

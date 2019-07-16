@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to ALC 4.0"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT ALC"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center"
+            android:paddingLeft ="20dp"
+            android:id="@+id/btnAbout"
+            android:paddingRight="20px"
+            android:textSize="20sp"
+            android:layout_marginTop="150dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY PROFILE"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center"
+            android:id="@+id/btnProfile"
+            android:paddingLeft="20dp"
+            android:paddingRight="20px"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
